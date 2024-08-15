@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    margin: 0;padding: 0;box-sizing: border-box;
+}
+body{
+    background-color: #202020;
+}
+input::placeholder{
+    color: #838181;
+}
+input{
+    color: #838181;
+}
+.item{
+    border-bottom: 2px solid #838181;
+    
+}
+
